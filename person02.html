@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Document | person02</title>
+</head>
+<body id="person">
+  <nav class="navbar navbar-expand-lg navbar-light nav-custom clearfix">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="index.html">GAllERY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded" data-toggle="modal" data-target="#exampleModalLong" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div> 
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 class="font-weight-bold">GAllERY where the creations born</h2>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <div class="profile clearfix">
+        <h3 class="font-weight-bold text-center pb-3">Profile</h3>
+        <img src="img/person02.png" class="float-left col-3" alt="person">
+        <div class="float-right col-8">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row" class="col-6 col-md-4 font-weight-bold">Name</th>
+                <td class="font-weight-bold">????</td>
+              </tr>
+              <tr>
+                <th scope="row" class="col-6 col-md-4 font-weight-bold">Experience</th>
+                <td class="font-weight-bold">?years</td>
+              </tr>
+              <tr>
+                <th scope="row" class="col-6 col-md-4 font-weight-bold">????</th>
+                <td class="font-weight-bold">?????<br>?????<br>?????</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="quote clearfix">
+        <div class="float-left col-6 bg-info text-white pt-3 pt-md-5 px-md-5">
+          <h4 class="font-weight-bold pb-3 text-light">?????????</h4>
+          <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae explicabo distinctio, dolorem atque quidem repellat at modi cum id accusantium molestiae, dicta, provident dolor exercitationem. Repellendus odit optio adipisci dolor.</p>
+        </div>
+        <img src="img/person02_01.png" class="float-right col-6" alt="person">
+      </div>
+    </div>
+    <div class="check">
+      <div class="container">
+        <h3 class="font-weight-bold pt-3 pb-3 text-center text-light">Check this out!</h3>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block  mx-auto" src="img/person02_p01.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block mx-auto" src="img/person02_p02.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block mx-auto" src="img/person02_p03.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div>
+              <input class="form-control" id="inputName" type="text" placeholder="Enter your name..." />
+              <label for="inputName"></label>
+            </div>
+            <div>
+              <input class="form-control" id="exampleFormControlInput1" type="email" placeholder="Enter your email..." />
+              <label for="exampleFormControlInput1"></label>
+            </div>
+            <div>
+              <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number..." />
+              <label for="inputPhone"></label>
+            </div>
+            <div>
+              <textarea class="form-control" id="inputMessage" placeholder="Enter your message here..." style="height: 12rem"></textarea>
+              <label for="inputMessage"></label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="copyright">
+      <p class="text-center pt-3 pb-3">Copyright © GAllERY 2021</p>
+    </div>
+  </footer>
+</body>
+</html>
